@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+}
+.container{
+	width: 1024px;
+	/*height: 100vh;*/
+	background: #192314;
+	/*position: relative;*/
+}
+.headerbox{
+	width: 100%;
+	height: 700px;
+	padding-bottom: 126px;
+
+}
+.pic{
+	width: 650px;
+	height: 651px;
+	background: url(green-beosound-shape-desktop.jpg);
+	float: right;
+	background-size: 650px 651px;
+}
+.textborad{
+	width: 512px;
+	height: 200px;
+	float: left;
+	/*background: #8a6d3b;*/
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	color: #fff;
+}
+.english{
+	font-size: 12px;
+	font-family:  "Gotham SSm A","Gotham SSm B";
+	line-height: 24px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+}
+.title{
+	font-size: 30px;
+	font-family:  "Gotham SSm A","Gotham SSm B";
+	line-height: 39px;
+	font-weight: normal;
+	margin-top: 15px;
+	margin-bottom: 24px;
+	letter-spacing: 4px;
+}
+.description{
+	font-size: 13px;
+	font-family:  "Gotham SSm A","Gotham SSm B";
+	line-height: 21px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+.button{
+	width: 201px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	margin-top: 10px;
+	background-color: rgba(255,255,255,.1);
+}
+.banner-box{
+	height:297px;
+	width: 100%;
+	padding-bottom: 100px;
+	background: url(img-bg-1350.jpg);
+	background-size: 100% 397px;
+	position: relative;
+}
+.banner{
+	width: 705px;
+	height: 353px;
+/*	padding: 0 59px;*/
+	margin: 0 auto;
+	background-color: #fff;
+	position: absolute;
+	right: 160px;
+	top: -58px;
+}
+.pic1{
+	width: 235px;
+	height: 353px;
+	float: left;
+	background: url(beovision-eclipse-frontpage-brass-smoked-oak-2.jpg);
+	background-size: 235px 353px;
+}
+.pic2{
+	width: 235px;
+	height: 353px;
+	float: left;
+	background: url(beoplay-p6-8.jpg);
+	background-size: 235px 353px;
+}
+.pic3{
+	width: 235px;
+	height: 353px;
+	float: left;
+	background: url(earset-subtile1.jpg);
+	background-size: 235px 353px;
+}
+.title1{
+	font-size: 18px;
+	color: #fff;
+	font-family: inherit;
+	line-height: 23px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-left: 10px;
+	letter-spacing: 2px;
+
+}
+.title2{
+	font-size: 18px;
+	color: #fff;
+	font-family: inherit;
+	line-height: 23px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-left: 10px;
+	letter-spacing: 2px;
+
+}
+.title3{
+	font-size: 18px;
+	color: #fff;
+	font-family:  inherit;
+	line-height: 23px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
