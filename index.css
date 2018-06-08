@@ -1,137 +1,423 @@
-body{
-	margin: 0;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
-.container{
-	width: 1024px;
-	/*height: 100vh;*/
-	background: #192314;
-	/*position: relative;*/
+
+.container {
+    width: 1024px;
+    /*height: 100vh;*/
+    background: #ffffff;
+    position: relative;
+    margin: 0 auto;
 }
-.headerbox{
-	width: 100%;
-	height: 700px;
-	padding-bottom: 126px;
+
+.nav-top {
+    width: 100%;
+    height: 57px;
+    padding: 0 22px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 200;
+}
+
+.nav-left {
+    width: 120px;
+    height: 57px;
+    /*background:red;*/
+    line-height: 57px;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    color: #fff;
+    background-image: url(product.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.nav-right {
+    width: 120px;
+    height: 57px;
+    /*background:red;*/
+    line-height: 57px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    color: #fff;
+    background-image: url(menu.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.nav-center {
+    width: 215px;
+    height: 57px;
+    /*background:red;*/
+    line-height: 57px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.headerbox {
+    width: 100%;
+    height: 800px;
+    padding-bottom: 126px;
+    background: #192314;
 
 }
-.pic{
-	width: 650px;
-	height: 651px;
-	background: url(green-beosound-shape-desktop.jpg);
-	float: right;
-	background-size: 650px 651px;
+
+.pic {
+    width: 650px;
+    height: 651px;
+    background: url(green-beosound-shape-desktop.jpg);
+    float: right;
+    background-size: 650px 651px;
 }
-.textborad{
-	width: 512px;
-	height: 200px;
-	float: left;
-	/*background: #8a6d3b;*/
-	position: absolute;
-	top: 200px;
-	left: 100px;
-	color: #fff;
+
+.textborad {
+    width: 512px;
+    height: 200px;
+    float: left;
+    /*background: #8a6d3b;*/
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color: #fff;
 }
-.english{
-	font-size: 12px;
-	font-family:  "Gotham SSm A","Gotham SSm B";
-	line-height: 24px;
-	font-weight: normal;
-	margin-bottom: 10px;
-	letter-spacing: 2px;
+
+.english {
+    font-size: 12px;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    line-height: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
 }
-.title{
-	font-size: 30px;
-	font-family:  "Gotham SSm A","Gotham SSm B";
-	line-height: 39px;
-	font-weight: normal;
-	margin-top: 15px;
-	margin-bottom: 24px;
-	letter-spacing: 4px;
+
+.title {
+    font-size: 30px;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    line-height: 39px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 24px;
+    letter-spacing: 4px;
 }
-.description{
-	font-size: 13px;
-	font-family:  "Gotham SSm A","Gotham SSm B";
-	line-height: 21px;
-	font-weight: 300;
-	margin-bottom: 20px;
-	letter-spacing: 1px;
+
+.description {
+    font-size: 13px;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    line-height: 21px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
 }
-.button{
-	width: 201px;
-	display: block;
-	color: #fff;
-	text-decoration: none;
-	padding: 10px 15px;
-	margin-top: 10px;
-	background-color: rgba(255,255,255,.1);
+
+.button {
+    width: 274px;
+    height: 41px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 35px;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, .1);
 }
-.banner-box{
-	height:297px;
-	width: 100%;
-	padding-bottom: 100px;
-	background: url(img-bg-1350.jpg);
-	background-size: 100% 397px;
-	position: relative;
+
+.banner-box {
+    height: 397px;
+    width: 100%;
+    padding-bottom: 100px;
+    background: url(img-bg-1350.jpg);
+    background-size: 100% 397px;
+    position: relative;
 }
-.banner{
-	width: 705px;
-	height: 353px;
-/*	padding: 0 59px;*/
-	margin: 0 auto;
-	background-color: #fff;
-	position: absolute;
-	right: 160px;
-	top: -58px;
+
+.banner {
+    width: 705px;
+    height: 353px;
+    /*	padding: 0 59px;*/
+    margin: 0 auto;
+    background-color: #fff;
+    position: absolute;
+    right: 160px;
+    top: -58px;
 }
-.pic1{
-	width: 235px;
-	height: 353px;
-	float: left;
-	background: url(beovision-eclipse-frontpage-brass-smoked-oak-2.jpg);
-	background-size: 235px 353px;
+
+.pic1 {
+    width: 235px;
+    height: 353px;
+    float: left;
+    background: url(beovision-eclipse-frontpage-brass-smoked-oak-2.jpg);
+    background-size: 235px 353px;
 }
-.pic2{
-	width: 235px;
-	height: 353px;
-	float: left;
-	background: url(beoplay-p6-8.jpg);
-	background-size: 235px 353px;
+
+.pic2 {
+    width: 235px;
+    height: 353px;
+    float: left;
+    background: url(beoplay-p6-8.jpg);
+    background-size: 235px 353px;
 }
-.pic3{
-	width: 235px;
-	height: 353px;
-	float: left;
-	background: url(earset-subtile1.jpg);
-	background-size: 235px 353px;
+
+.pic3 {
+    width: 235px;
+    height: 353px;
+    float: left;
+    background: url(earset-subtile1.jpg);
+    background-size: 235px 353px;
 }
-.title1{
-	font-size: 18px;
-	color: #fff;
-	font-family: inherit;
-	line-height: 23px;
-	font-weight: normal;
-	margin-top: 10px;
-	margin-left: 10px;
-	letter-spacing: 2px;
+
+.title {
+    font-size: 18px;
+    color: #fff;
+    font-family: inherit;
+    line-height: 23px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: 2px;
 
 }
-.title2{
-	font-size: 18px;
-	color: #fff;
-	font-family: inherit;
-	line-height: 23px;
-	font-weight: normal;
-	margin-top: 10px;
-	margin-left: 10px;
-	letter-spacing: 2px;
+
+.title-box {
+    width: 100%;
+    height: 318px;
+    background-color: #fff;
 
 }
-.title3{
-	font-size: 18px;
-	color: #fff;
-	font-family:  inherit;
-	line-height: 23px;
-	font-weight: normal;
-	margin-top: 10px;
-	margin-left: 10px;
 
+.subtitle {
+    width: 853px;
+    height: 318px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.small-text {
+    line-height: 21px;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 12px;
+    margin-bottom: 18px
+}
+
+.big-text {
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 3px;
+    margin-top: 15px;
+    margin-bottom: 24px
+}
+
+.product-list {
+    height: 1533px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 512px;
+    height: 512px;
+}
+
+.product:nth-child(1) {
+    background: url(beoplay-h9i-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.product:nth-child(2) {
+    background: url(beoplay-p6-categories-mobile-2.jpg);
+    background-size: 100% auto;
+}
+
+.product:nth-child(3) {
+    background: url(beovision-eclipse-mobile.jpg);
+    background-size: 100% auto;
+
+}
+
+.product:nth-child(4) {
+    background: url(beosound-core-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.product:nth-child(5) {
+    background: url(beolab-50-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.product:nth-child(6) {
+    background: url(beosound-shape-mobile.jpg);
+    background-size: 100% auto;
+}
+
+.story-box {
+    width: 705px;
+    height: 465px;
+    /*background: red;*/
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 100px;
+
+}
+
+.story {
+    width: 176px;
+    height: 365px;
+    margin: 0 auto;
+    line-height: 24px;
+
+}
+
+.story:nth-child(3) {
+    width: 352px;
+    height: 365px;
+}
+
+.story img {
+    /*width: 352px;*/
+    height: 168px;
+    background-size: 100% auto;
+}
+
+.story .h5 {
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+.story .desc {
+    height: 63px;
+    line-height: 21px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.info-box{
+    width: 100%;
+    height: 509px;
+    padding: 0 12px;
+    /*background: palevioletred;*/
+    display: flex;
+    border-top: 1px #f2f2f2 solid ;
+    border-bottom: 1px #f2f2f2 solid;
+
+}
+.info-item{
+    width: 500px;
+    height: 509px;
+    padding-top: 80px;
+
+}
+.info-item:nth-child(1){
+    border-right:1px #f2f2f2 solid ;
+}
+.info-item .icon{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    margin: 0 auto 30px auto;
+
+}
+.info-item .icon:nth-child(1){
+    background: #000 url(TIM20180608152905.png) no-repeat center center;
+}
+.info-item .icon:nth-child(2){
+    background: #000 url(TIM20180608152738.png) no-repeat center center;
+
+}
+.info-item h5{
+    font-weight: normal;
+    line-height: 23px;
+    text-align: center;
+    margin-bottom: 13px ;
+
+}
+
+.info-item h6{
+    width: 290px;
+    height: 40px;
+    margin: 20px auto;
+    color: #888;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+}
+.info-item .button{
+    width: 200px;
+    height: 41px;
+    padding: 10px 40px;
+    margin: 0 auto;
+    background: rgba(0,0,0,.1);
+    border: hidden;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+}
+.info-item input{
+    display: block;
+    height: 56px;
+    width: 372px;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 17px;
+    margin: 13px auto 40px auto;
+    border: 1px solid #ccc;
+}
+.info-item .search{
+    margin-top: 116px;
+}
+.footer{
+    width: 100%;
+    height: 83px;
+    padding: 20px 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .left{
+    width: 140px;
+    height: 20px;
+    line-height: 20px;
+    background: url(TIM20180608155045.png) no-repeat left center;
+}
+.footer .left a{
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+.footer .right{
+    width: 629px;
+    height: 42px;
+    padding: 0 14px;
+}
+.footer .right a{
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    color: black;
+    line-height: 18px;
+    float: right;
+    padding-left: 15px;
 }
